@@ -1,0 +1,192 @@
+------------------------------------------------------------
+Creo Simulate Structure Version P-30-43:spg
+Summary for Design Study "FLAT_P_VAP_30C"
+Sun Apr  8, 2018   15:25:05
+------------------------------------------------------------
+
+Run Settings
+   Memory allocation for block solver: 512.0     
+
+Parallel Processing Status
+   Parallel task limit for current run:            2
+   Parallel task limit for current platform:      64
+   Number of processors detected automatically:    2
+
+Checking the model before creating elements...
+These checks take into account the fact that AutoGEM will
+automatically create elements in volumes with material
+properties, on surfaces with shell properties, and on curves
+with beam section properties.
+   Generate elements automatically.
+Checking the model after creating elements...
+No errors were found in the model.
+Creo Simulate Structure Model Summary
+
+   Principal System of Units: Meter Kilogram Second (MKS)
+
+   Length:          m
+   Mass:            kg
+   Time:            sec
+   Temperature:     K
+
+   Model Type: Three Dimensional
+
+   Points:                456
+   Edges:                2357
+   Faces:                3438
+
+   Springs:                 0
+   Masses:                  0
+   Beams:                   0
+   Shells:                  0
+   Solids:               1535
+
+   Elements:             1535
+
+------------------------------------------------------------
+
+Standard Design Study
+
+Static Analysis "FLAT_P_VAP_30C":
+
+   Convergence Method: Single-Pass Adaptive
+   Plotting Grid:      4
+
+   Convergence Loop Log:                         (15:25:07)
+
+   >> Pass  1 <<
+         Calculating Element Equations           (15:25:07)
+            Total Number of Equations:   24690
+            Maximum Edge Order:              3
+         Solving Equations                       (15:25:07)
+         Post-Processing Solution                (15:25:08)
+         Checking Convergence                    (15:25:08)
+         Resource Check                          (15:25:09)
+            Elapsed Time     (sec):      10.20
+            CPU Time         (sec):       2.98
+            Memory Usage      (kb):    1880111
+            Wrk Dir Dsk Usage (kb):      28672
+
+   >> Pass  2 <<
+         Calculating Element Equations           (15:25:09)
+            Total Number of Equations:   61278
+            Maximum Edge Order:              7
+         Solving Equations                       (15:25:10)
+         Post-Processing Solution                (15:25:12)
+         Checking Convergence                    (15:25:13)
+         Calculating Disp and Stress Results     (15:25:14)
+
+         RMS Stress Error Estimates:
+
+         Load Set          Stress Error  % of Max Prin Str
+         ----------------  ------------  -----------------
+         P_VAP_30C_FOS1     6.15e+06       2.2% of  2.81e+08
+
+         Resource Check                          (15:25:16)
+            Elapsed Time     (sec):      17.09
+            CPU Time         (sec):       9.84
+            Memory Usage      (kb):    1928324
+            Wrk Dir Dsk Usage (kb):     114688
+
+   Total Mass of Model:  2.811231e+01
+
+   Total Cost of Model:  0.000000e+00
+
+   Mass Moments of Inertia about WCS Origin:
+
+     Ixx:   3.12205e+00
+     Ixy: -5.93948e-10  Iyy:   2.14536e-01
+     Ixz:   1.58416e-09  Iyz: -2.96952e-08  Izz:   3.12205e+00
+
+   Principal MMOI and Principal Axes Relative to WCS Origin:
+
+            Max Prin           Mid Prin           Min Prin
+            3.12205e+00         3.12205e+00         2.14536e-01
+
+   WCS X:   7.14926e-01       -6.99201e-01         2.04280e-10
+   WCS Y: -7.28716e-09       -7.15889e-09         1.00000e+00
+   WCS Z:   6.99201e-01         7.14926e-01         1.02133e-08
+
+   Center of Mass Location Relative to WCS Origin:
+                  (-1.87933e-09,   1.92266e-11,   3.40050e-09)
+
+   Mass Moments of Inertia about the Center of Mass:
+
+     Ixx:   3.12205e+00
+     Ixy: -5.93948e-10  Iyy:   2.14536e-01
+     Ixz:   1.58416e-09  Iyz: -2.96952e-08  Izz:   3.12205e+00
+
+   Principal MMOI and Principal Axes Relative to COM:
+
+            Max Prin           Mid Prin           Min Prin
+            3.12205e+00         3.12205e+00         2.14536e-01
+
+   WCS X:   7.14926e-01       -6.99201e-01         2.04280e-10
+   WCS Y: -7.28716e-09       -7.15888e-09         1.00000e+00
+   WCS Z:   6.99201e-01         7.14926e-01         1.02133e-08
+
+   Constraint Set: CAP_CONSTRAINTS: BJ01_RUNTANK_HEAVY_FLAT
+
+   Load Set: P_VAP_30C_FOS1: BJ01_RUNTANK_HEAVY_FLAT
+
+      Resultant Load on Model:
+         in global X direction:  1.230475e-05
+         in global Y direction: -8.976621e-10
+         in global Z direction: -2.356233e-04
+
+      Measures:
+
+      max_beam_bending:    0.000000e+00
+      max_beam_tensile:    0.000000e+00
+      max_beam_torsion:    0.000000e+00
+      max_beam_total:      0.000000e+00
+      max_disp_mag:        1.622235e-04
+      max_disp_x:          3.820359e-05
+      max_disp_y:        -1.622218e-04
+      max_disp_z:        -3.861671e-05
+      max_prin_mag*:       2.811957e+08
+      max_rot_mag:         0.000000e+00
+      max_rot_x:           0.000000e+00
+      max_rot_y:           0.000000e+00
+      max_rot_z:           0.000000e+00
+      max_stress_prin*:    2.811957e+08
+      max_stress_vm*:      1.748630e+08
+      max_stress_xx*:      1.202224e+08
+      max_stress_xy*:    -4.896587e+07
+      max_stress_xz:     -2.542288e+07
+      max_stress_yy*:      2.447960e+08
+      max_stress_yz*:      6.769429e+07
+      max_stress_zz*:      1.317174e+08
+      min_stress_prin:   -8.871267e+07
+      strain_energy:       5.543864e+01
+
+   ** Warning: The measures marked by an asterisk (*) were evaluated 
+   at (or close to) results singularities. The values of these  
+   measures may be inaccurate, and you must use engineering judgment 
+   when interpreting them.
+
+Analysis "FLAT_P_VAP_30C" Completed  (15:25:16)
+
+------------------------------------------------------------
+
+Memory and Disk Usage:
+
+   Machine Type: Windows 64 
+   RAM Allocation for Solver (megabytes): 512.0
+
+   Total Elapsed Time (seconds): 17.40     
+   Total CPU Time     (seconds): 9.86      
+   Maximum Memory Usage (kilobytes): 1928324   
+   Working Directory Disk Usage (kilobytes): 114688    
+
+   Results Directory Size (kilobytes):
+   16831 .\FLAT_P_VAP_30C
+
+   Maximum Data Base Working File Sizes (kilobytes):
+   100352 .\FLAT_P_VAP_30C.tmp\kel1.bas
+   14336 .\FLAT_P_VAP_30C.tmp\oel1.bas
+
+------------------------------------------------------------
+Run Completed
+Sun Apr  8, 2018   15:25:16
+------------------------------------------------------------

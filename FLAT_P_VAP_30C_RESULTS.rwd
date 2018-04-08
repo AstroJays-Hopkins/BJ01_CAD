@@ -1,0 +1,202 @@
+<results>
+  <header/>
+<!--Result Definition for displacement_fringe-->
+  <resultWindow name="displacement_fringe" product="mechanica" visible="true">
+<!--Application Specific Info-->
+    <appInfo>
+      <study id="5082" name="FLAT_P_VAP_30C" path="." type="4">
+        <analysis id="5078" name="FLAT_P_VAP_30C"/>
+        <loadModeInfo type="4" action="4">
+          <loadModeScale scale="1.000000" included="true"/>
+        </loadModeInfo>
+      </study>
+      <location useAll="false" geomLocationType="all"/>
+      <relativeTo id="214" to="csys"/>
+    </appInfo>
+    <genInfo windowTitle="Displacement Magnitude Fringe" lastViewedTab="quantity">
+      <quantity unit="MPa" averaged="false" component="34" rangeClass="0" phaseAmplitude="151" rangeDimension="1"/>
+      <display type="fringe" exploded="true" backGroundColor="0">
+        <threeD loads="false" shaded="true" overlay="false" coordSys="true" csysTriad="true" constraints="false" elementEdges="false" bondingElements="false" overlayTransparent="false">
+          <numberDisplay nodeNumber="false" resultValue="false" elementNumber="false"/>
+        </threeD>
+        <fringeInfo contour="false" continuous="false" isoSurface="false" labelContour="false" contourLabelDensity="2"/>
+        <deformInfo deformed="false"/>
+        <legendInfo>
+          <valueInfo maxValue=" 2.81195740E+02" minLevel="true" minValue="-4.49849854E+01" showMaxMin="true" scaleMaxMin="true" numContourLevels="9" transparentFringes="true">
+            <legendLevel>
+              -1.23669128E+01
+            </legendLevel>
+            <legendLevel>
+               2.02511597E+01
+            </legendLevel>
+            <legendLevel>
+               5.28692322E+01
+            </legendLevel>
+            <legendLevel>
+               8.54873047E+01
+            </legendLevel>
+            <legendLevel>
+               1.18105377E+02
+            </legendLevel>
+            <legendLevel>
+               1.50723450E+02
+            </legendLevel>
+            <legendLevel>
+               1.83341522E+02
+            </legendLevel>
+            <legendLevel>
+               2.15959595E+02
+            </legendLevel>
+            <legendLevel>
+               2.48577667E+02
+            </legendLevel>
+          </valueInfo>
+          <colorInfo invert="false" colorSpectrum="default"/>
+        </legendInfo>
+        <visibilityInfo csys="true" label="true" title="true" legend="true" contourLabels="false"/>
+      </display>
+      <viewInfo winWidth="3.971094" winHeight="5.636719">
+        <windowPlacement xy0="0.000000" xy1="0.000000" orientation="0.000000" magnification="1.000000"/>
+        <viewMatrix>
+          <row0 col0="0.5029908971" col1="-0.9450379785" col2="2.2938218720"/>
+          <row1 col0="-0.2832551727" col1="2.3033107012" col2="1.0110597038"/>
+          <row2 col0="-2.4646464388" col1="-0.4575788857" col2="0.3519302470"/>
+          <row3 col0="0.0000000000" col1="0.0000000000" col2="0.0000000000"/>
+        </viewMatrix>
+      </viewInfo>
+    </genInfo>
+  </resultWindow>
+<!--Result Definition for Window1-->
+  <resultWindow name="Window1" product="mechanica" visible="true">
+<!--Application Specific Info-->
+    <appInfo>
+      <study id="5082" name="FLAT_P_VAP_30C" path=".\" type="4">
+        <analysis id="5078" name="FLAT_P_VAP_30C"/>
+        <loadModeInfo type="4" action="4">
+          <loadModeScale scale="1.000000" included="true"/>
+        </loadModeInfo>
+      </study>
+      <location useAll="false" geomLocationType="all"/>
+      <relativeTo id="214" to="csys"/>
+    </appInfo>
+    <genInfo windowTitle="FLAT_P_VAP_30C - FLAT_P_VAP_30C" lastViewedTab="quantity">
+      <quantity unit="MPa" averaged="false" component="31" rangeClass="0" phaseAmplitude="151" rangeDimension="1"/>
+      <display type="fringe" exploded="true" backGroundColor="0">
+        <threeD loads="false" shaded="true" overlay="false" coordSys="true" csysTriad="true" constraints="false" elementEdges="false" bondingElements="false" overlayTransparent="false">
+          <numberDisplay nodeNumber="false" resultValue="false" elementNumber="false"/>
+        </threeD>
+        <fringeInfo contour="false" continuous="false" isoSurface="false" labelContour="false" contourLabelDensity="2"/>
+        <deformInfo deformed="false"/>
+        <legendInfo>
+          <valueInfo maxValue=" 1.74862976E+02" minLevel="true" minValue=" 3.37740749E-01" showMaxMin="true" scaleMaxMin="true" numContourLevels="9" transparentFringes="true">
+            <legendLevel>
+               1.77902641E+01
+            </legendLevel>
+            <legendLevel>
+               3.52427902E+01
+            </legendLevel>
+            <legendLevel>
+               5.26953163E+01
+            </legendLevel>
+            <legendLevel>
+               7.01478348E+01
+            </legendLevel>
+            <legendLevel>
+               8.76003571E+01
+            </legendLevel>
+            <legendLevel>
+               1.05052887E+02
+            </legendLevel>
+            <legendLevel>
+               1.22505409E+02
+            </legendLevel>
+            <legendLevel>
+               1.39957932E+02
+            </legendLevel>
+            <legendLevel>
+               1.57410461E+02
+            </legendLevel>
+          </valueInfo>
+          <colorInfo invert="false" colorSpectrum="default"/>
+        </legendInfo>
+        <visibilityInfo csys="true" label="true" title="true" legend="true" contourLabels="false"/>
+      </display>
+      <viewInfo winWidth="3.971094" winHeight="5.636719">
+        <windowPlacement xy0="0.000000" xy1="0.000000" orientation="0.000000" magnification="1.000000"/>
+        <viewMatrix>
+          <row0 col0="3.1512629578" col1="0.0000000000" col2="1.3323326090"/>
+          <row1 col0="-1.0436519852" col1="2.1267391410" col2="2.4684690742"/>
+          <row2 col0="-0.8281912308" col1="-2.6800278051" col2="1.9588564672"/>
+          <row3 col0="0.0000000000" col1="0.0000000000" col2="0.0000000000"/>
+        </viewMatrix>
+      </viewInfo>
+    </genInfo>
+  </resultWindow>
+<!--Result Definition for Window2-->
+  <resultWindow name="Window2" product="mechanica" visible="true">
+<!--Application Specific Info-->
+    <appInfo>
+      <study id="5082" name="FLAT_P_VAP_30C" path=".\" type="4">
+        <analysis id="5078" name="FLAT_P_VAP_30C"/>
+        <loadModeInfo type="4" action="4">
+          <loadModeScale scale="1.000000" included="true"/>
+        </loadModeInfo>
+      </study>
+      <location useAll="false" geomLocationType="all"/>
+      <relativeTo id="214" to="csys"/>
+    </appInfo>
+    <genInfo windowTitle="FLAT_P_VAP_30C - FLAT_P_VAP_30C" lastViewedTab="quantity">
+      <quantity unit="MPa" averaged="false" component="35" rangeClass="0" phaseAmplitude="151" rangeDimension="1"/>
+      <display type="fringe" exploded="true" backGroundColor="0">
+        <threeD loads="false" shaded="true" overlay="false" coordSys="true" csysTriad="true" constraints="false" elementEdges="false" bondingElements="false" overlayTransparent="false">
+          <numberDisplay nodeNumber="false" resultValue="false" elementNumber="false"/>
+        </threeD>
+        <fringeInfo contour="false" continuous="false" isoSurface="false" labelContour="false" contourLabelDensity="2"/>
+        <deformInfo deformed="false"/>
+        <legendInfo>
+          <valueInfo maxValue=" 9.09765244E+01" minLevel="true" minValue=" 1.90581217E-01" showMaxMin="true" scaleMaxMin="true" numContourLevels="9" transparentFringes="true">
+            <legendLevel>
+               1.00000000E+01
+            </legendLevel>
+            <legendLevel>
+               2.00000000E+01
+            </legendLevel>
+            <legendLevel>
+               3.00000000E+01
+            </legendLevel>
+            <legendLevel>
+               4.00000000E+01
+            </legendLevel>
+            <legendLevel>
+               5.00000000E+01
+            </legendLevel>
+            <legendLevel>
+               6.00000000E+01
+            </legendLevel>
+            <legendLevel>
+               7.00000000E+01
+            </legendLevel>
+            <legendLevel>
+               8.00000000E+01
+            </legendLevel>
+            <legendLevel>
+               9.00000000E+01
+            </legendLevel>
+          </valueInfo>
+          <colorInfo invert="false" colorSpectrum="default"/>
+        </legendInfo>
+        <visibilityInfo csys="true" label="true" title="true" legend="true" contourLabels="false"/>
+      </display>
+      <viewInfo winWidth="3.971094" winHeight="5.636719">
+        <windowPlacement xy0="0.000000" xy1="0.000000" orientation="0.000000" magnification="1.000000"/>
+        <viewMatrix>
+          <row0 col0="3.1512629578" col1="0.0000000000" col2="1.3323326090"/>
+          <row1 col0="-1.0436519852" col1="2.1267391410" col2="2.4684690742"/>
+          <row2 col0="-0.8281912308" col1="-2.6800278051" col2="1.9588564672"/>
+          <row3 col0="0.0000000000" col1="0.0000000000" col2="0.0000000000"/>
+        </viewMatrix>
+      </viewInfo>
+    </genInfo>
+  </resultWindow>
+</results>
+
